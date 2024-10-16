@@ -1,0 +1,86 @@
+.nav-item {
+	background-color: rgb(208, 208, 208);
+}
+
+.border {
+	border: 2px;
+}
+
+.scrollable-table {
+	height: 350px;
+	overflow-y: auto;
+	display: block;
+}
+
+.scrollable-table1 {
+	height: 550px;
+	overflow-y: auto;
+	display: block;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+}
+
+th,
+td {
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+	font-size: 12px;
+}
+
+.table1 th:nth-child(1) {
+	width: 5%;
+}
+
+thead th {
+	position: sticky;
+	top: 0;
+	background-color: grey;
+	z-index: 1;
+}
+
+.tr-first {
+	position: sticky;
+	top: 40px;
+	z-index: 1;
+}
+
+.tr-first1 {
+	position: sticky;
+	top: 43px;
+	z-index: 1;
+}
+
+.border-table {
+	position: relative;
+	border: solid 2px black;
+}
+
+.col-form-label {
+	display: flex;
+	justify-content: end;
+}
+
+label {
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+}
+
+.form-control {
+	font-size: 13px;
+}
+
+.col-form-label {
+	font-size: 14px;
+}
+
+button {
+	box-shadow: 1px 1px 1px 1px black;
+}
